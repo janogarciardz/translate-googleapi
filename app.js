@@ -1,4 +1,5 @@
 var elementos_idioma_original;
+
 $(document).ready(function() {
 	//Clonar todos los elementos con la clase idioma-trad, para tener el resplado del idioma original
 	elementos_idioma_original = $('.idioma-trad').clone(); 
